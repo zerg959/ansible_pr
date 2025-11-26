@@ -1,0 +1,21 @@
+cat > .gitignore <<EOF
+# Virtual environments
+venv/
+ENV/
+env/
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ansible
+*.retry
+EOF
